@@ -1,4 +1,4 @@
-PPSS - Python Protein Subunit Syntax
+# PPSS - Python Protein Subunit Syntax
 
 A simple Python package for defining protein subunit structures.
 
