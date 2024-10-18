@@ -18,7 +18,7 @@ class Subunit(ProteinComponent):
     Represents a single subunit within a protein.
 
     Attributes:
-        id (str): The identifier of the subunit (e.g., 'B1', 'B36').
+        id (str): The identifier of the subunit (e.g., 'B1', 'AA23', 'XYZ789').
     """
     id: str
 
@@ -203,7 +203,7 @@ grammar = """
 
     subunit: SUBUNIT
 
-    SUBUNIT: "B" DIGIT+
+    SUBUNIT: /[A-Za-z0-9]+/
 
     DIGIT: "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
 

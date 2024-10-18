@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ppss"
-version = "0.1.0"
+version = "0.2.0"
 description = "Python Protein Subunit Syntax"
 authors = ["sandyjmacdonald <sandyjmacdonald@gmail.com>"]
 license = "MIT"
