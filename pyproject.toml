@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ppss"
+version = "0.1.0"
+description = "Python Protein Subunit Syntax"
+authors = ["sandyjmacdonald <sandyjmacdonald@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/sandyjmacdonald/ppss"
+keywords = ["protein", "parser", "lark", "bioinformatics"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+lark = "^1.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
