@@ -21,7 +21,7 @@ poetry install
 
 ## Usage
 
-The simple example below defines a protein comprised of either an S1 *plus* S2 subunit, or just an S3 subunit. The bar (|) symbol here represents an OR condition or "alternation", while the + represents an AND condition or "concatenation". Subunit IDs can be any combination of upper and/or lowercase alphabetical and numerical characters.
+The simple example below defines a protein comprised of either an S1 *plus* S2 subunit, or just an S3 subunit. The bar `|` symbol here represents an OR condition or "alternation", while the `+` symbol represents an AND condition or "concatenation". Subunit IDs can be any combination of upper and/or lowercase alphabetical and numerical characters.
 
 ```
 from ppss import ProteinParser
